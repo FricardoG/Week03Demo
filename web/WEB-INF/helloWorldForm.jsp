@@ -15,11 +15,10 @@
         <h1>Hello World!</h1>
         <form method="post" action="hello">
             <label for="firstname"> First Name: </label>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="firstname" value="${firstname}"><br>
             <label for="lastname"> Last Name: </label>
-            <input type="text" name="lastname"><br>
+            <input type="text" name="lastname" value="${lastname}"><br>
             <input type="submit" value="Submit">
-            
         </form>
     </body>
 </html>
